@@ -5,7 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi --openssl-legacy-provider start",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
@@ -29,8 +29,8 @@
     "uuid": "354e6547-3d44-40d4-946a-522a7676921a"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": "16.14.2",
+    "npm": "^8.19.0"
   },
   "license": "MIT"
 }
